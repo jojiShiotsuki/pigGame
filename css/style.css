@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: inline-block;
+  margin: 0 auto;
+}
+.playerDeck{
+  display: flex;
+  height: 200px;
+}
+.playerContainer{
+  display: flex;
+  justify-content: space-around;
+}
+h1,h2,h3,h4,h5{
+  text-align: center;
+}
+.buttonContainer{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2%;
+}
+.numberContainerClass {
+  margin:auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  background-color: green;
+}
+/* CSS */
+
+
+/* CSS */
+.button-1 {
+  background-color: red;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: rgb(231, 68, 68);
+}
